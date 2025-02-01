@@ -1,0 +1,87 @@
+/* Define CSS variables for the light theme */
+:root {
+    /* Backgrounds */
+    --primary-bg: #f7f7f7;         /* Overall page background */
+    --secondary-bg: #ffffff;       /* Card or section background */
+    
+    /* Text colors */
+    --primary-text: #333333;       /* Main text color */
+    --secondary-text: #555555;     /* Secondary text color */
+    
+    /* Accent colors */
+    --accent-color: #007bff;       /* Accent color for buttons, links, etc. */
+    --highlight-color: #ffd700;    /* Additional accent for highlighting */
+    
+    /* Borders and shadows */
+    --border-color: #dddddd;
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Apply light theme styles to the body or main container */
+  .light-theme {
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Card styling for UI components like your weather card */
+  .light-theme .card {
+    background-color: var(--secondary-bg);
+    color: var(--primary-text);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--box-shadow);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form elements */
+  .light-theme input.form-control {
+    background-color: var(--secondary-bg);
+    color: var(--primary-text);
+    border: 1px solid var(--border-color);
+  }
+  
+  /* Accent Button styles */
+  .light-theme .btn-success {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: #fff;
+  }
+  
+  .light-theme .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+  }
+  
+  /* Hover effects for buttons */
+  .light-theme .btn-success:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .light-theme .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+  
+  /* Additional styling for headings and texts */
+  .light-theme h1,
+  .light-theme h4 {
+    color: var(--primary-text);
+  }
+  
+  .light-theme p {
+    color: var(--secondary-text);
+  }
+  
+  /* Example for links or interactive elements */
+  .light-theme a {
+    color: var(--accent-color);
+  }
+  
+  .light-theme a:hover {
+    color: var(--highlight-color);
+  }
+  
